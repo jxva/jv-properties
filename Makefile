@@ -26,4 +26,4 @@ $(TARGET):$(C_OBJS)
 	@echo Project has been successfully compiled.
 	@echo
 clean:
-	rm -rf $(TARGET) *.depend *.layout bin obj *.o *.log *~
+	rm -rf $(TARGET) *.depend *.layout bin obj *.o *.stackdump *.log *~
