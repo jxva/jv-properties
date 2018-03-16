@@ -1,0 +1,61 @@
+{
+    "files.exclude": {
+        "**/*.meta": true,
+        //".babelrc": true,
+        ".buckconfig": true,
+        ".gitattributes": true,
+        //".gitignore": true,
+        ".flowconfig": true,
+        ".watchmanconfig": true,
+        // "node_modules/": true,
+        // "ios/": true,
+        "*.bat": true,
+        // "index.ios.js": true,
+        "app.json": true,
+        "jsconfig.json": true,
+        "**/model_unused": true,
+        "*.7z": true,
+        "*.o": true,
+        "**/*.o": true,
+        "**/**/*.o": true,
+        "**/**/**/*.o": true,
+        //"lib":true,
+        ".clang-format":true
+    },
+    "search.exclude": {
+        "node_module/": true,
+        "**/index.android.bundle": true,
+        "doc/": true,
+        "android/": true,
+        "ios/": true,
+        "*.md": true
+    },
+    "workbench.editor.enablePreview": false,
+    "explorer.autoReveal": false,
+
+    "editor.tabSize":2,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    // Specifies the location of snippets in the suggestion widget
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": true,
+    // Controls whether format on paste is on or off
+    "editor.formatOnPaste": true,
+
+    "files.associations": {
+
+    },
+    "window.title": "${dirty}${activeEditorLong}${separator}${rootName}${separator}${appName}",
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    //"C_Cpp.intelliSenseEngine": "Tag Parser",
+    // "editor.selectionHighlight": true
+    //"C_Cpp.clang_format_style": "Google",
+    //"C_Cpp.clang_format_column_limit":180,
+    // Cygwin, with chere package installed
+    "terminal.integrated.shell.windows": "C:\\cygwin64\\bin\\bash.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/bin/xhere",
+        "/bin/bash"
+    ],
+    "C_Cpp.errorSquiggles": "Disabled"
+}

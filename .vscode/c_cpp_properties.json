@@ -1,0 +1,94 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "FOO",
+                "BAR=100"
+            ],
+            "compileCommands": "",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/usr/include/c++/4.2.1",
+                    "/usr/include/c++/4.2.1/tr1",
+                    "/usr/local/mysql/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceRoot}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "C:/cygwin64/usr/include",
+                "C:/cygwin64/usr/include/sys",
+                "C:/cygwin64/lib/clang/5.0.1/include",
+                "C:/cygwin64/usr/include/c++/v1/*",
+                "${workspaceRoot}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "C:/cygwin64/usr/include",
+                    "C:/cygwin64/usr/include/sys",
+                    "C:/cygwin64/lib/clang/5.0.1/include",
+                    "C:/cygwin64/usr/include/c++/v1/*",
+                    "${workspaceRoot}"
+                ]
+            }
+        },
+        {
+            "name": "MinGW",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceRoot}",
+                "C:/MinGW/include/",
+                "C:/MinGW/mingw32/lib/gcc/mingw32/4.8.1/include/",
+                "C:/MinGW/mingw32/lib/gcc/mingw32/4.8.1/include/c++/*",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "FOO",
+                "BAR=100"
+            ],
+            "compileCommands": "",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "/usr/include/c++/4.2.1",
+                    "/usr/include/c++/4.2.1/tr1",
+                    "/usr/local/mysql/include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 3
+}

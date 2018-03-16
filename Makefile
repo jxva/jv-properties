@@ -7,6 +7,7 @@ INCLUDES=-I.
 LIBS=
 
 LINKS=
+
 TARGET=jv_properties_main
 
 src=$(wildcard *.c)
@@ -25,5 +26,6 @@ $(TARGET):$(C_OBJS)
 	@echo 
 	@echo Project has been successfully compiled.
 	@echo
+
 clean:
-	rm -rf $(TARGET) *.depend *.layout bin obj *.o *.stackdump *.log *~
+	rm -rf $(TARGET) *.depend *.layout bin obj *.o *.stackdump *.exe *.log *~

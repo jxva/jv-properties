@@ -9,8 +9,6 @@
 
 jv_properties_main
 
-.vscode/
-
 bin/
 obj/
 
